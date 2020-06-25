@@ -1,0 +1,74 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url("components/cards.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Open Sans;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+/* Custom design below! */
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.banner {
+    background-image: url(../images/esteban-amaro.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+}
+
+.banner p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 32px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.btn-treehouse {
+  background-color:#00CC99;
+  color: white;
+  font-weight: bolder;
+  border-radius: 4px;
+  padding: 16px 24px;
+}
+
+.btn-treehouse:hover {
+  background-color: #B9B9B9;
+  color: #10101A;
+  font-weight: bolder;
+  border-radius: 4px;
+  padding: 16px 24px;
+}
+
+.footer {
+    text-align: center;
+    padding: 60px;
+    background-color: #00CC99;
+}
+
+.footer .links {
+  color: white;
+}
